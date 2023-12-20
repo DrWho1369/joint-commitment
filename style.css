@@ -186,7 +186,6 @@ input:checked + label .description {
 
 .card[for="c1"] {
     background-image: url('./Assets/running\ man\ logo.png');
-    object-fit: cover;
 }
 .card[for="c2"] {
     background-image: url('./Assets/Untitled\ \(18\).png');
