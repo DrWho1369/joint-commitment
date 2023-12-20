@@ -207,41 +207,6 @@ input:checked + label .description {
     }
     
     .wrapper {
-        margin-top: 400px;
-    }
-
-    .container {
-        height: 1200px;
-        flex-direction: column;
-    }  
-
-    .slide {
-        width: 400px;
-        align-items: flex-start;
-    }
-
-    .slide > .row {
-        flex-direction: column;
-    }  
-
-    .slide > .row > .icon-1,  
-    .icon-2,
-    .icon-3 {
-        width: 50px;
-    }
-  
-    .slide {  
-        height: 80px;
-    }
-  
-    .slide > .row > .description {
-        height: auto;
-        width: 300px;
-    }
-  
-    input:checked + label {
-        height: 600px;
-        width: 400px;
+        display: none;
     }
 }
-  
