@@ -193,6 +193,55 @@ input:checked + label .description {
 .card[for="c3"] {
     background-image: url('./Assets/Untitled\ \(17\).png');
 }
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+}
+
+@media (max-width: 766px) {
+
+    .wrapper {
+        margin-top: 400px;
+    }
+
+    .container {
+        height: 1200px;
+        flex-direction: column;
+    }  
+
+    .slide {
+        width: 400px;
+        align-items: flex-start;
+    }
+
+    .slide > .row {
+        flex-direction: column;
+    }  
+
+    .slide > .row > .icon-1,  
+    .icon-2,
+    .icon-3 {
+        width: 50px;
+    }
+  
+    .slide {  
+        height: 80px;
+    }
+  
+    .slide > .row > .description {
+        height: 500px;
+        width: 400px;
+    }
+  
+    input:checked + label {
+        height: 600px;
+        width: 400px;
+    }
+}
+  
 .card[for="c4"] {
     background-image: url('./Assets/Untitled\ \(19\).png');
 }
