@@ -231,12 +231,17 @@ input:checked + label .description {
     .card {
         height: 80px;
     }
+    .description {
+        align-self: center;
+        align-items: center;
+    }
   
     .card > .row > .description {
         height: 500px;
         width: 340px;
         padding: 5px;
         align-content: center;
+        align-items: center;
     }
 
     input:checked + label {
