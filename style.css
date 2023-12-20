@@ -235,8 +235,8 @@ input:checked + label .description {
     }
   
     .slide > .row > .description {
-        height: 500px;
-        width: 400px;
+        height: auto;
+        width: 300px;
     }
   
     input:checked + label {
