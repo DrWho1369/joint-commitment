@@ -186,6 +186,7 @@ input:checked + label .description {
 
 .card[for="c1"] {
     background-image: url('./Assets/running\ man\ logo.png');
+    object-fit: cover;
 }
 .card[for="c2"] {
     background-image: url('./Assets/Untitled\ \(18\).png');
@@ -194,6 +195,9 @@ input:checked + label .description {
     background-image: url('./Assets/Untitled\ \(17\).png');
 }
 
+.card[for="c4"] {
+    background-image: url('./Assets/Untitled\ \(19\).png');
+}
 
 
 @media (max-width: 766px) {
@@ -240,6 +244,3 @@ input:checked + label .description {
     }
 }
   
-.card[for="c4"] {
-    background-image: url('./Assets/Untitled\ \(19\).png');
-}
