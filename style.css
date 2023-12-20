@@ -207,6 +207,7 @@ input:checked + label .description {
     
     .wrapper-main {
         margin-top: 400px;
+        width: 80vw;
     }
 
     .container {
@@ -215,7 +216,6 @@ input:checked + label .description {
     }
 
     .card {
-        width: 80vw;
         align-items: flex-end;
     }
 
