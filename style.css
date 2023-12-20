@@ -213,24 +213,24 @@ input:checked + label .description {
         flex-direction: column;
     }
 
-    .slide {
+    .card {
         width: 400px;
         align-items: flex-start;
     }
 
-    .slide > .row {
+    .card > .row {
         flex-direction: column;   
     }
-    .slide > .row > .icon-1,
+    .card > .row > .icon-1,
     .icon-2,
     .icon-3 {
         width: 50px;
     }
-    .slide {
+    .card {
         height: 80px;
     }
   
-    .slide > .row > .description {
+    .card > .row > .description {
         height: 500px;
         width: 400px;
     }
