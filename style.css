@@ -206,7 +206,7 @@ input:checked + label .description {
     }
     
     .wrapper-main {
-        margin-top: 200px;
+        margin-top: 400px;
     }
 
     .container {
@@ -215,7 +215,7 @@ input:checked + label .description {
     }
 
     .card {
-        width: 350px;
+        width: 100vw;
         align-items: flex-end;
     }
 
@@ -233,7 +233,8 @@ input:checked + label .description {
   
     .card > .row > .description {
         height: 500px;
-        width: 400px;
+        width: 340px;
+        padding: 5px;
     }
 
     input:checked + label {
