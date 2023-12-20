@@ -235,7 +235,7 @@ input:checked + label .description {
         height: 500px;
         width: 340px;
         padding: 5px;
-        justify-content: center;
+        align-content: center;
     }
 
     input:checked + label {
