@@ -194,15 +194,13 @@ input:checked + label .description {
     background-image: url('./Assets/Untitled\ \(17\).png');
 }
 
-@media only screen and (max-width: 768px) {
-    .sidebar {
-        display: none;
-    }
 
-}
 
 @media (max-width: 766px) {
-
+    .sidebar {
+            display: none;
+    }
+    
     .wrapper {
         margin-top: 400px;
     }
