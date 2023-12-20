@@ -242,6 +242,7 @@ input:checked + label .description {
         align-self: center;
         align-items: center;
         align-content: center;
+        text-align: center;
     }
   
     .card > .row > .description {
@@ -250,6 +251,7 @@ input:checked + label .description {
         padding: 5px;
         align-content: center;
         align-items: center;
+        text-align: center;
     }
 
     input:checked + label {
