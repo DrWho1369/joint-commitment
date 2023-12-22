@@ -120,7 +120,7 @@ body {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: 1fr;
     gap: 20px;
     width: 90%;
     margin: 20px auto;
@@ -187,18 +187,19 @@ body {
     .grid-container .box-2 {
         grid-area: b;
         display: block;
-        position: sticky;
         top: 0;
-        z-index: 100;
+        z-index: 0;
     }
     
     .grid-container .box-3 {
         grid-area: m;
+        padding-top: 100px;
     }
     
     .grid-container .box-4 {
         grid-area: s;
         display: block;
+        position: fixed;
     }
     
     .grid-container .box-5 {
@@ -217,25 +218,10 @@ body {
     
     .card-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 20px;
         width: 90%;
         margin: 20px auto;
-        grid-template-areas: 
-        "c1 c1"
-        "c2 c3";
-    }
-    
-    .card-1 {
-        grid-area: c1;
-    }
-
-    .card-2 {
-        grid-area: c2;
-    }
-
-    .card-3 {
-        grid-area: c3;
     }
 
     .sidebar{
@@ -284,7 +270,7 @@ body {
        
     .sidebar .social_media{
         position: absolute;
-        bottom: 20px;
+        bottom: 0px;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -361,6 +347,29 @@ body {
     .desktop-banner {
         display: block;
         
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 90%;
+        margin: 20px auto;
+        grid-template-areas: 
+        "c1 c1"
+        "c2 c3";
+    }
+    
+    .card-1 {
+        grid-area: c1;
+    }
+
+    .card-2 {
+        grid-area: c2;
+    }
+
+    .card-3 {
+        grid-area: c3;
     }
 }
 
