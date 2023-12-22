@@ -80,17 +80,17 @@ body {
 /* Main Grid Layout */
 .grid-container {
     height: 90vh;
-    width: 90vw;
+    width: 100%;
     margin: auto;
 
     display: grid;
     gap: 20px;
 
-    grid-template-columns: 0px 0px 1fr 1fr  1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-    "m m m m  m m m m  m m m m"
-    "a a a a  a a a a  a a a a"
-    "f f f f  f f f f  f f f f";
+    "m"
+    "a"
+    "f";
 }
 
 .grid-container .box-1 {
@@ -153,9 +153,10 @@ body {
 
 .card .card-info {
     background: var(--darkBlue);
-    width: 100%;
+    width: auto;
     border-radius: 20px;
     padding: 10px;
+    margin: 10px;
     color: rgb(182, 182, 182);
 }
 /* tablet */
