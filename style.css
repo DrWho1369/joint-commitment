@@ -117,6 +117,7 @@ body {
 
 .grid-container .box-6 {
     grid-area: a;
+    background-color: rgb(247, 247, 247);
 }
 
 /* Main content Cards */
