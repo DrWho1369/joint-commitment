@@ -233,11 +233,11 @@ body {
         position: fixed;
     }
       
-    .sidebar h2{
-        color: #fff;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 30px;
+    .sidebar img{
+        width: 100px;
+        height: 100px;
+        align-content: center;
+        margin-left: 50px;
     }
 
     .sidebar ul {
@@ -254,6 +254,7 @@ body {
     .sidebar ul li a{
         color: #bdb8d7;
         display: block;
+        text-decoration: none;
     }
       
     .sidebar ul li a .fas{
