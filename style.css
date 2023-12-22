@@ -321,9 +321,9 @@ body {
         grid-template-columns: repeat(12, 1fr);
         grid-template-areas: 
         "b b b b  b b b b  b b b b"
-        "s s m m  m m m m  m m m m"
-        "s s m m  m m m m  m m m m"
-        "s s a a  a a a a  a a a a"
+        "s s m m  m m m m  m m a a"
+        "s s m m  m m m m  m m a a"
+        "s s m m  m m m m  m m a a"
         "s s f f  f f f f  f f f f";
     }
     
