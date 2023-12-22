@@ -231,7 +231,7 @@ body {
         margin: 20px auto;
     }
 
-    .sidebar{
+    .sidebar {
         display: block;
         width: auto;
         height: 100vh;
@@ -239,7 +239,20 @@ body {
         padding: 30px 0px;
         position: fixed;
     }
-      
+
+    .sidebar li, ul, .dropdown-toggle {
+        background: var(--darkBlue);
+        color: #bdb8d7;
+        padding: 15px;
+        width: auto;
+        border-bottom: 1px solid #bdb8d7;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        border-top: 1px solid rgba(255,255,255,0.05);
+    }    
+    
+    .dropdown-devider {
+        padding: 0;
+    }
     .sidebar img{
         width: 100px;
         height: 100px;
@@ -257,6 +270,8 @@ body {
         border-bottom: 1px solid rgba(0,0,0,0.05);
         border-top: 1px solid rgba(255,255,255,0.05);
     }    
+
+  
       
     .sidebar ul li a{
         color: #bdb8d7;
