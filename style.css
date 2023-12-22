@@ -250,9 +250,6 @@ body {
         border-top: 1px solid rgba(255,255,255,0.05);
     }    
     
-    .dropdown-devider {
-        padding: 0;
-    }
     .sidebar img{
         width: 100px;
         height: 100px;
