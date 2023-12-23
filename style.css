@@ -74,6 +74,10 @@ body {
     background-color: var(--darkBlue) !important;
 }
 
+.navbar-brand {
+    color: var(--yellow);
+}
+
 
 /* Main Grid Layout */
 .grid-container {
@@ -121,7 +125,8 @@ body {
 
 /* Main content Cards */
 .card-container img {
-    height: 400px;
+    height: auto;
+    max-height: 400px;
     object-fit: contain;
     border-radius: 0%;
 }
