@@ -120,6 +120,7 @@ body {
 
 .grid-container .box-6 {
     grid-area: a;
+    border-radius: 50px;
     background-color: rgb(247, 247, 247);
 }
 
@@ -135,8 +136,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 20px 0px;
 }
 
 .card-container .card {
@@ -192,6 +193,11 @@ body {
     
     .desktop-banner3 {
         display: block;
+        background: hsla(217, 96%, 11%, 1);
+        background: linear-gradient(90deg, hsla(217, 96%, 11%, 1) 35%, hsla(190, 53%, 56%, 1) 100%);
+        background: -moz-linear-gradient(90deg, hsla(217, 96%, 11%, 1) 35%, hsla(190, 53%, 56%, 1) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(217, 96%, 11%, 1) 35%, hsla(190, 53%, 56%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#011638", endColorstr="#54B6CA", GradientType=1 );
     }
     .grid-container .box-1 {
         grid-area: n;
@@ -200,10 +206,21 @@ body {
     .grid-container .box-2 {
         grid-area: b;
         display: block;
+        height: 200px;
+
         top: 0;
         z-index: 0;
+        background: hsla(217, 96%, 11%, 1);
+        background: linear-gradient(0deg, hsla(217, 96%, 11%, 1) 35%, hsla(190, 53%, 56%, 1) 100%);
+        background: -moz-linear-gradient(0deg, hsla(217, 96%, 11%, 1) 35%, hsla(190, 53%, 56%, 1) 100%);
+        background: -webkit-linear-gradient(0deg, hsla(217, 96%, 11%, 1) 35%, hsla(190, 53%, 56%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#011638", endColorstr="#54B6CA", GradientType=1 );
     }
     
+    .box-2 img {
+        max-height: 200px;
+        padding-left: 100px ;
+    }
     .grid-container .box-3 {
         grid-area: m;
         padding-top: 20px;
@@ -232,7 +249,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
-        width: 90%;
+        width: 100%;
         margin: 20px auto;
     }
 
@@ -267,6 +284,8 @@ body {
         padding: 0 30px;
         min-width: 20vw;
         text-align: end;
+        font-size: 20px;
+        font-weight: bold;
         
     }
       
@@ -282,6 +301,8 @@ body {
     .sidebar ul li a{
         color: #bdb8d7;
         display: block;
+        font-size: 20px;
+        font-weight: bold;
         text-decoration: none;
         justify-content: center;
     }
@@ -336,7 +357,7 @@ body {
     
         grid-template-columns: 20% 1fr 20%;
         grid-template-areas: 
-        "b b b"
+        "s b b"
         "s m a"
         "s m a"
         "s m a"
@@ -355,7 +376,7 @@ body {
     
     .grid-container .box-3 {
         grid-area: m;
-        
+        padding: 0px;
     }
     
     .grid-container .box-4 {
@@ -369,6 +390,10 @@ body {
 
     .grid-container .box-6 {
         grid-area: a;
+        border-radius: 20px;
+        align-items: start;
+        padding-top: 20px;
+        margin-top: 20px;
     }
     
     .mobile-banner {
@@ -384,8 +409,8 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
-        width: 90%;
-        margin: 20px auto;
+        width: 100%;
+        margin: 20px 0px;
         grid-template-areas: 
         "c1 c1"
         "c2 c3";
