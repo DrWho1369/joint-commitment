@@ -17,7 +17,12 @@
     --darkBlue: #011638;
     --pageBackground: white;
 }
-
+.bg-image {
+    background-image: url('./Assets/fake-luke.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 * {
     box-sizing: border-box;
     margin: 0;
@@ -81,7 +86,7 @@ body {
 
 /* Main Grid Layout */
 .grid-container {
-    height: 90vh;
+    
     width: 100%;
     margin: auto;
 
@@ -92,6 +97,8 @@ body {
     grid-template-areas: 
     "m"
     "a"
+    "b"
+    "c"
     "f";
 }
 
@@ -119,11 +126,15 @@ body {
 }
 
 .grid-container .box-6 {
-    grid-area: a;
+    grid-area: b;
     border-radius: 50px;
     background-color: rgb(247, 247, 247);
 }
 
+.container-2 {
+    grid-area: c;
+    justify-content: center;
+}
 /* Main content Cards */
 .card-container img {
     height: auto;
@@ -180,6 +191,7 @@ body {
         "s m"
         "s m"
         "s a"
+        "s c"
         "s f";
     }
     
@@ -219,7 +231,7 @@ body {
     
     .box-2 img {
         max-height: 200px;
-        padding-left: 100px ;
+        padding-left: 500px ;
     }
     .grid-container .box-3 {
         grid-area: m;
@@ -239,6 +251,11 @@ body {
 
     .grid-container .box-6 {
         grid-area: a;
+    }
+
+    .contact1 {
+        grid-area: c;
+
     }
     .card-container img {
         object-fit: contain;
@@ -348,8 +365,9 @@ body {
 @media (min-width: 1200px) {
 
     .grid-container {
-        height: 100vh;
+        
         width: 100%;
+        min-height: fit-content;
         margin: 0px;
     
         display: grid;
@@ -359,9 +377,8 @@ body {
         grid-template-areas: 
         "s b b"
         "s m a"
-        "s m a"
-        "s m a"
-        "s f a";
+        "s c a"
+        
     }
     
     
@@ -396,6 +413,11 @@ body {
         margin-top: 20px;
     }
     
+    .contact1 {
+        grid-area: c;
+        justify-content: center;
+    }
+
     .mobile-banner {
         display: none;
     }
